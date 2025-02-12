@@ -1,0 +1,23 @@
+.footer_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 10px 0px 10px;
+    background-color: blue;
+}
+.date ,.name , .copy{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 600;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+.name{
+    background: white url(../image/n.jpg) 0 0 / cover no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     font-size: 20px;
+     background-color: antiquewhite;
+}

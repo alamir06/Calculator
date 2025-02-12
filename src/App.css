@@ -10,7 +10,7 @@
 }
 
 .calulator{
-  padding: 20px;
+  padding: 0px 20px 0px 20px;
   border-radius: 10px;
   background-color: white;
 }
@@ -48,11 +48,36 @@ form input.equal{
   width:123px;
 }
 
+.main{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  background:linear-gradient(140deg, rgb(48, 48, 219), rgb(48, 48, 223))
+}
 
-
-
-
-
+.button{
+  display: grid;
+  grid-template-columns: repeat(5, 60PX);
+  gap: 5PX;
+}
+.B{
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  background-color: rgb(20, 20, 75);
+  color: white;
+  margin: 3px;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bolder;
+cursor: pointer;
+}
+.B:hover{
+  background-color: blue;
+}
 
 
 

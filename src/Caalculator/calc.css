@@ -1,0 +1,129 @@
+/* FileName: App.css */
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #1fb334;
+    margin-bottom: 30px;
+    /* Adjusted margin */
+}
+
+.calc-body {
+    background-color: #c5f5b7;
+    border: 1px solid #141414;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    /* Adjusted container width */
+    padding: 2vw;
+    /* Adjusted padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.output {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: green;
+    font-weight: 900;
+    font-size: 2vw;
+}
+
+.button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.numeric-pad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.operators {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.control-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #b8bcb9;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1fb334;
+}
+
+.equals-button {
+    background-color: #ff5733;
+    /* Different color for equals button */
+    margin: 5px;
+}
+
+.clear-button {
+    background-color: #ff5733;
+    /* Different color for clear button */
+    margin: 5px;
+}
+
+.backspace-button {
+    background-color: #1f73b3;
+    /* Different color for backspace button */
+    margin: 5px;
+}
+
+.variables {
+    margin-bottom: 5%;
+    color: #fff;
+    background-color: #272727;
+    flex-basis: 10%;
+}
+
+.variables h2 {
+    color: #fff;
+}
+
+.fields input {
+    background-color: #e8eef5;
+    border: 1px solid rgb(231, 228, 228);
+    width: 5vw;
+}
